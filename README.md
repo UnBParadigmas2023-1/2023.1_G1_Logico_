@@ -1,3 +1,5 @@
+# NomeDoProjeto
+
 # NOME DO PROJETO
 
 **Disciplina**: FGA0210 - PARADIGMAS DE PROGRAMAÇÃO - T01 <br>
@@ -26,12 +28,47 @@ Capriche nessa seção, pois ela é a primeira a ser lida pelos interessados no 
 ## Screenshots
 Adicione 2 ou mais screenshots do projeto em termos de interface e/ou funcionamento.
 
-## Instalação 
-**Linguagens**: xxxxxx<br>
-**Tecnologias**: xxxxxx<br>
-Descreva os pré-requisitos para rodar o seu projeto e os comandos necessários.
-Insira um manual ou um script para auxiliar ainda mais.
-Gifs animados e outras ilustrações são bem-vindos!
+
+# Execução
+
+## Pré-requisitos
+
+Certifique-se de ter o Docker instalado e configurado em seu sistema.
+
+## Construindo e executando o contêiner
+
+Para construir a imagem Docker e executar o contêiner com o terminal SWI-Prolog interativo, siga as etapas abaixo:
+
+1. Abra um terminal ou prompt de comando.
+
+2. Navegue até a pasta scripts no diretório raiz do projeto.
+
+    2.1. No ambiente Linux, execute o seguinte comando para construir a imagem Docker e iniciar o contêiner interativo:
+
+    ```bash
+    sudo sh build.sh
+    ```
+
+    2.2 No ambiente Windows, execute o seguinte comando no prompt de comando para construir a imagem Docker e iniciar o contêiner interativo:
+
+    ```bash
+    build.cmd
+    ```
+
+3. Na pasta de scripts:
+
+    3.1. No ambiente Linux, execute o seguinte comando para iniciar o contêiner interativo:
+
+    ```bash
+    sudo sh start.sh
+    ```
+
+    3.2 No ambiente Windows, execute o seguinte comando no prompt de comando para iniciar o contêiner interativo:
+
+    ```bash
+    start.cmd
+    ```
+Esses comandos criarão uma imagem com o nome "Prolog" usando o Dockerfile fornecido e iniciarão o contêiner com o terminal SWI-Prolog interativo.
 
 ## Uso 
 Explique como usar seu projeto.

@@ -1,33 +1,34 @@
+:- dynamic positivo/1.
 :- consult(interface).
 :- use_module(library(ansi_term)).
 :- consult('sintomas.pl').
 :- consult('doencas.pl').
 
+
+%symbolic fact
+positivo(nothing).
+
 consultar_sintomas :-
     print_initial_screen,
     findall(Sintoma, sintoma(Sintoma), Sintomas),
-    diagnostico_sintomas(Sintomas, [], Doenca),
+    diagnostico_sintomas(Sintomas),
     print_divider,
     writeln(''),
+    diagnostico(Doenca),
     ansi_format([bold, fg(green)], '                        Diagnóstico:', []),
     ansi_format([bold, fg(yellow)], Doenca, []),
     writeln(''),
     print_divider.
 
-diagnostico_sintomas([], _, Doenca) :-
-    diagnostico(Doenca).
+diagnostico_sintomas([]).
 
-diagnostico_sintomas([Sintoma|Resto], RespostasAnteriores, Doenca) :-
-    perguntar_sintoma(Sintoma, Resposta),
-    (Resposta = s ->
-        append(RespostasAnteriores, [Sintoma], NovasRespostas),
-        diagnostico_sintomas(Resto, NovasRespostas, Doenca)
-    ;
-        diagnostico_sintomas(Resto, RespostasAnteriores, Doenca)
-    ).
+diagnostico_sintomas([Sintoma|Resto]) :-
+    perguntar_sintoma(Sintoma, Resposta), processar_resposta(Sintoma, Resposta), diagnostico_sintomas(Resto).
 
-perguntar_sintoma(Sintoma, Resposta) :-
-    format('Voce apresenta o sintoma "~w"? (s/n) ', [Sintoma]),
-    read(Resposta).
+perguntar_sintoma(Sintoma, Resposta) :- format('Voce apresenta o sintoma "~w"? (s/n) ', [Sintoma]), read(Resposta).
+
+processar_resposta(Sintoma, 's') :-
+    asserta(positivo(Sintoma)).
+processar_resposta(Sintoma, 'n').
 
 :- initialization(consultar_sintomas).

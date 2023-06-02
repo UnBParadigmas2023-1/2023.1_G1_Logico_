@@ -40,9 +40,15 @@ sintoma(azia).
 sintoma(regurgitacao_acida).
 sintoma(globus_faringeo).
 sintoma(dor_toracica_nao_cardiaca).
-sintoma(dor_abdominal_superior).
+sintoma(dor_abdominal).
 sintoma(queimacao_estomago).
 sintoma(saciedade).
 sintoma(vomito_com_sangue).
 sintoma(arroto).
 sintoma(falta_de_apetite).
+sintoma(urina_escura).
+sintoma(fezes_claras).
+sintoma(cansaco).
+sintoma(dor_nas_costas).
+sintoma(diarreia).
+sintoma(inchaco_abdominal).

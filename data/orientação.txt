@@ -1,0 +1,10 @@
+doenças respiratórias
+
+Tarefas:
+
+1. Identicar uma doença e os seus sintomas
+2. Criar um txt com os sintomas
+3. Criar os fatos no prolog com os sintomas
+4. Criar as fatos/regras juntando sintoma com doença
+5. Criar quizz para tirar resultado
+    5.1. Perguntas sim e não, frequência

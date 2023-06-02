@@ -43,31 +43,18 @@ Para construir a imagem Docker e executar o contêiner com o terminal SWI-Prolog
 
 2. Navegue até a pasta scripts no diretório raiz do projeto.
 
-    2.1. No ambiente Linux, execute o seguinte comando para construir a imagem Docker e iniciar o contêiner interativo:
+3. No ambiente Linux, execute o seguinte comando para construir a imagem Docker e iniciar o contêiner interativo:
 
     ```bash
-    sudo sh build.sh
+    sh build.sh
     ```
 
-    2.2 No ambiente Windows, execute o seguinte comando no prompt de comando para construir a imagem Docker e iniciar o contêiner interativo:
+4. Depois, execute o seguinte comando para iniciar o contêiner interativo:
 
     ```bash
-    build.cmd
+    sh start.sh
     ```
 
-3. Na pasta de scripts:
-
-    3.1. No ambiente Linux, execute o seguinte comando para iniciar o contêiner interativo:
-
-    ```bash
-    sudo sh start.sh
-    ```
-
-    3.2 No ambiente Windows, execute o seguinte comando no prompt de comando para iniciar o contêiner interativo:
-
-    ```bash
-    start.cmd
-    ```
 Esses comandos criarão uma imagem com o nome "Prolog" usando o Dockerfile fornecido e iniciarão o contêiner com o terminal SWI-Prolog interativo.
 
 ## Uso 

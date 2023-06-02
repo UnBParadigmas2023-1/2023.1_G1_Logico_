@@ -36,3 +36,13 @@ sintoma(perda_visao).
 sintoma(ansiedade).
 sintoma(hemorragia_nasal).
 sintoma(pulsacao_pescoco).
+sintoma(azia).
+sintoma(regurgitacao_acida).
+sintoma(globus_faringeo).
+sintoma(dor_toracica_nao_cardiaca).
+sintoma(dor_abdominal_superior).
+sintoma(queimacao_estomago).
+sintoma(saciedade).
+sintoma(vomito_com_sangue).
+sintoma(arroto).
+sintoma(falta_de_apetite).

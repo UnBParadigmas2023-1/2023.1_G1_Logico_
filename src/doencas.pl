@@ -98,6 +98,27 @@ tem_hipertensao :-
     sintoma(hemorragia_nasal),
     sintoma(pulsacao_pescoco).
 
+% Doenças gastrointestinais
+
+tem_refluxo_gastroesofagico :-
+    sintoma(azia),
+    sintoma(regurgitacao_acida),
+    sintoma(globus_faringeo),
+    sintoma(dor_toracica_nao_cardiaca),
+    sintoma(tosse),
+    sintoma(dificuldade_engolir),
+    write("O refluxo gastroesofágico (DRGE) é a condição que se desenvolve quando o conteúdo do estômago retorna ao esôfago e provoca sintomas desagradáveis e/ou complicações. Se você apresenta esses sintomas, é importante procurar atendimento médico imediatamente. O tratamento da DRGE objetiva controlar os sintomas, cicatrizar as lesões e prevenir complicações, podendo ser fundamentalmente clínico ou cirúrgico. Em alguns casos, o tratamento pode ser feito através da mudança de hábitos de vida e alimentares. "), nl.
+
+tem_ulcera_peptica :-
+    sintoma(dor_abdominal_superior),
+    sintoma(queimacao_estomago),
+    sintoma(saciedade),
+    sintoma(nausea),
+    sintoma(vomito),
+    sintoma(vomito_com_sangue),
+    sintoma(arroto),
+    sintoma(falta_de_apetite),
+    write("A úlcera péptica é uma ferida no revestimento do estômago ou duodeno - o início do intestino delgado. Menos comumente, uma úlcera péptica pode desenvolver-se logo acima do estômago, no esôfago, o tubo que liga a boca ao estômago. Se você apresenta esses sintomas, é importante procurar atendimento médico imediatamente. Uma vez que a infecção pela bactéria H. pylori é uma das principais causas de úlceras, quando a infecção por H. pylori é diagnosticada, a pessoa recebe um tratamento que tenha medicamentos que matam a bactéria, reduzem a acidez do estômago e protegem o revestimento do estômago e duodeno. Os antibióticos são utilizados para matar o H. pylori. "), nl.
 
 diagnostico(Doenca) :-
     (   tem_febre_amarela
@@ -120,6 +141,10 @@ diagnostico(Doenca) :-
     ->  Doenca = 'AVC'
     ;   tem_hipertensao
     ->  Doenca = 'Hipertensao'
+    ;   tem_refluxo_gastroesofagico
+    ->  Doenca = 'Refluxo gastroesofagico'
+    ;   tem_ulcera_peptica
+    ->  Doenca = 'Ulcera peptica'
     ;   tem_outra_doenca
     ->  Doenca = 'Outra Doenca'
     ;   Doenca = 'Doenca desconhecida'

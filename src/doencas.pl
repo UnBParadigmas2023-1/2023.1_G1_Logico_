@@ -146,6 +146,14 @@ diagnostico(Doenca) :-
     ->  Doenca = 'Pneumonia'
     ;   tem_faringite
     ->  Doenca = 'Faringite'
+    ;   tem_malaria
+    ->  Doenca = 'Malaria'
+    ;   tem_catapora
+    ->  Doenca = 'Catapora'
+    ;   tem_artrite
+    ->  Doenca = 'Artrite'
+    ;   tem_vertigem
+    ->  Doenca = 'Vertigem'
     ;   tem_insuficiencia_cardiaca
     ->  Doenca = 'Insuficiencia Cardiaca'
     ;   tem_arritmia

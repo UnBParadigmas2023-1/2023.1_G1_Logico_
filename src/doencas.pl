@@ -58,6 +58,43 @@ tem_faringite :-
     sintoma(febre_leve),
     write("A faringite é uma inflamação na garganta, geralmente causada por infecção viral ou bacteriana. Se você apresenta esses sintomas, é provável que esteja com faringite. Recomenda-se repouso, gargarejos com água morna e sal, ingestão de líquidos quentes e uso de analgésicos para aliviar os sintomas. Se os sintomas persistirem ou piorarem, consulte um médico. Evite fumar, exposição a irritantes e esforço excessivo da voz para ajudar na recuperação."), nl.
 
+tem_malaria :-
+    sintoma(febre_alta),
+    sintoma(fraqueza),
+    sintoma(dor_de_cabeca),
+    sintoma(dor_muscular),
+    sintoma(nausea),
+    sintoma(vomito),
+    sintoma(calafrios),
+    sintoma(diarreia),
+    sintoma(palidez),
+    write("A malária é uma doença transmitida pela picada de mosquitos infectados. Se você apresenta esses sintomas, é importante procurar atendimento médico para o diagnóstico e tratamento adequados. A malária pode ser grave e até fatal se não for tratada corretamente. Prevenção inclui o uso de mosquiteiros, repelentes e medicamentos profiláticos, dependendo da região onde você está."), nl.
+
+tem_catapora :-
+    sintoma(febre_leve),
+    sintoma(coceira),
+    sintoma(manchas_na_pele),
+    sintoma(fraqueza),
+    sintoma(dor_garganta),
+    sintoma(dor_de_cabeca),
+    write("A catapora é uma doença altamente contagiosa causada pelo vírus varicela-zóster. Se você apresenta esses sintomas, é provável que esteja com catapora. A doença geralmente é autolimitada e os sintomas podem ser aliviados com medicamentos para reduzir a febre e aliviar a coceira. Evite coçar as lesões para prevenir infecções secundárias. A vacinação contra a catapora é uma medida eficaz de prevenção."), nl.
+
+tem_artrite :-
+    sintoma(dor_articular),
+    sintoma(inchaco),
+    sintoma(rigidez),
+    sintoma(fraqueza),
+    sintoma(febre_leve),
+    write("A artrite é uma condição que causa inflamação nas articulações, resultando em dor, inchaço e rigidez. Se você apresenta esses sintomas, é importante procurar um médico para avaliação e diagnóstico adequados. O tratamento da artrite varia dependendo da causa e pode incluir medicamentos, fisioterapia e mudanças no estilo de vida para aliviar os sintomas e melhorar a função das articulações."), nl.
+
+tem_vertigem :-
+    sintoma(vertigem),
+    sintoma(tontura),
+    sintoma(nausea),
+    sintoma(perda_de_equilibrio),
+    sintoma(zumbido_no_ouvido),
+    write("A vertigem é uma sensação de tontura e desequilíbrio, muitas vezes acompanhada de náuseas, zumbido no ouvido e perda de equilíbrio. Se você está experimentando esses sintomas, é importante consultar um médico para avaliar a causa subjacente. A vertigem pode ter várias causas, incluindo distúrbios do ouvido interno, enxaquecas e problemas neurológicos. O tratamento depende da causa e pode incluir medicamentos, fisioterapia e mudanças no estilo de vida."), nl.
+
 
 
 tem_outra_doenca :-    % Exemplo de outra doença com sintomas similares
@@ -75,7 +112,7 @@ tem_insuficiencia_cardiaca :-
     sintoma(ganho_peso),
     sintoma(tosse_persistente).
 
-tem_arritmia :- 
+tem_arritmia :-
     sintoma(palpitacao),
     sintoma(batimento_acelerado),
     sintoma(palpitacao),

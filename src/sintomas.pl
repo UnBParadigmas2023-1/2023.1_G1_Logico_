@@ -36,3 +36,13 @@ sintoma(perda_visao).
 sintoma(ansiedade).
 sintoma(hemorragia_nasal).
 sintoma(pulsacao_pescoco).
+sintoma(fraqueza).
+sintoma(diarreia).
+sintoma(coceira).
+sintoma(manchas_na_pele).
+sintoma(dor_articular).
+sintoma(inchaco).
+sintoma(dor_abdominal).
+sintoma(sangramento).
+sintoma(vertigem).
+sintoma(palidez).

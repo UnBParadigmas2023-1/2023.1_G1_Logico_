@@ -1,10 +1,10 @@
-sintoma(febre_alta).        % Sintoma: Febre alta
-sintoma(dor_de_cabeca).     % Sintoma: Dor de cabeça
-sintoma(dor_muscular).      % Sintoma: Dor muscular
-sintoma(fadiga).            % Sintoma: Fadiga
-sintoma(nausea).            % Sintoma: Náusea
-sintoma(vomito).            % Sintoma: Vômito
-sintoma(ictericia).         % Sintoma: Icterícia
+sintoma(febre_alta).       % Sintoma: Febre alta
+sintoma(dor_de_cabeca).    % Sintoma: Dor de cabeça
+sintoma(dor_muscular).     % Sintoma: Dor muscular
+sintoma(fadiga).           % Sintoma: Fadiga
+sintoma(nausea).           % Sintoma: Náusea
+sintoma(vomito).           % Sintoma: Vômito
+sintoma(ictericia).        % Sintoma: Icterícia
 
 tem_febre_amarela :-
     sintoma(febre_alta),
@@ -49,22 +49,24 @@ diagnostico(Doenca) :-
 
 consultar_sintomas :-
     write('Responda "s" para sim e "n" para nao:'), nl,
-    findall(Sintoma, sintoma(Sintoma), Sintomas),    % Obtém a lista de todos os sintomas
-    diagnostico_sintomas(Sintomas, [], Doenca),       % Realiza o diagnóstico com base nos sintomas
+    findall(Sintoma, sintoma(Sintoma), Sintomas),   % Obtém a lista de todos os sintomas
+    diagnostico_sintomas(Sintomas, [], Doenca),     % Realiza o diagnóstico com base nos sintomas
     write('Doenca mais provavel: '), write(Doenca), nl.
 
-diagnostico_sintomas([], _, 'Doenca desconhecida').
+diagnostico_sintomas([], _, Doenca) :-
+    diagnostico(Doenca).
 
 diagnostico_sintomas([Sintoma|Resto], RespostasAnteriores, Doenca) :-
-    perguntar_sintoma(Sintoma, Resposta),             % Pergunta ao usuário sobre o sintoma atual
-    (   Resposta = s
-    ->  append(RespostasAnteriores, [Sintoma], NovasRespostas),
+    perguntar_sintoma(Sintoma, Resposta),           % Pergunta ao usuário sobre o sintoma atual
+    (Resposta = s ->
+        append(RespostasAnteriores, [Sintoma], NovasRespostas),
         diagnostico_sintomas(Resto, NovasRespostas, Doenca)
-    ;   diagnostico_sintomas(Resto, RespostasAnteriores, Doenca)
+    ;
+        diagnostico_sintomas(Resto, RespostasAnteriores, Doenca)
     ).
 
 perguntar_sintoma(Sintoma, Resposta) :-
-    write('Voce apresenta o sintoma "'), write(Sintoma), write('"? (s/n)'), nl,    % Pergunta ao usuário se ele
-    read(Resposta).                                                                   % tem o sintoma
+    write('Voce apresenta o sintoma "'), write(Sintoma), write('"? (s/n)'), nl,
+    read(Resposta).
 
 :- initialization(consultar_sintomas).

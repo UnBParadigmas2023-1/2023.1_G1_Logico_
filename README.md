@@ -92,10 +92,27 @@ Apresente, brevemente, como cada membro do grupo contribuiu para o projeto.
 
 ## Outros 
 Quaisquer outras informações sobre o projeto podem ser descritas aqui. Não esqueça, entretanto, de informar sobre:
-(i) Lições Aprendidas;
-(ii) Percepções;
-(iii) Contribuições e Fragilidades, e
-(iV) Trabalhos Futuros.
+
+### (i) Lições Aprendidas:
+
+-- A importância de uma boa organização e estruturação do código para facilitar a manutenção e expansão do sistema.
+-- A necessidade de uma validação rigorosa dos dados de entrada para garantir a precisão dos resultados.
+-- A importância de documentar adequadamente o código e fornecer instruções claras de uso.
+
+### (ii) Percepções:
+
+-- A implementação em Prolog permitiu a expressão de regras de forma clara, facilitando o desenvolvimento e a compreensão do sistema.
+
+### (iii) Contribuições e Fragilidades:
+
+
+### (iv) Trabalhos Futuros:
+
+-- Melhorar a precisão do sistema, considerando mais sintomas e doenças.
+-- Implementar uma interface de usuário amigável para facilitar a interação com o sistema.
+-- Incorporar uma base de conhecimento mais atualizada e abrangente sobre doenças e sintomas.
+-- Realizar testes e validações adicionais para garantir a confiabilidade e eficácia do sistema.
+
 
 ## Fontes
 Ministério da Saúde. Doenças respiratórias crônicas [Internet]. Brasília: Ministério da Saúde; 2010. Disponível em: https://bvsms.saude.gov.br/bvs/publicacoes/doencas_respiratorias_cronicas.pdf. Acesso em: 02/06/2023.

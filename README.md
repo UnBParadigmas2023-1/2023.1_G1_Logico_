@@ -1,6 +1,4 @@
-# NomeDoProjeto
-
-# NOME DO PROJETO
+# Sistema de Diagnóstico de Doenças
 
 **Disciplina**: FGA0210 - PARADIGMAS DE PROGRAMAÇÃO - T01 <br>
 **Nro do Grupo**: G1<br>
@@ -21,9 +19,16 @@
 
 
 ## Sobre 
-Descreva o seu projeto em linhas gerais. 
-Use referências, links, que permitam conhecer um pouco mais sobre o projeto.
-Capriche nessa seção, pois ela é a primeira a ser lida pelos interessados no projeto.
+
+Este sistema de diagnóstico de doenças visa auxiliar na identificação de possíveis condições médicas a partir dos sintomas relatados. No entanto, é importante ressaltar que este sistema é apenas uma ferramenta de referência e não substitui a consulta médica profissional.
+
+O sistema é baseado em uma lista de sintomas que estão relacionados a diferentes doenças. Ao informar os sintomas, ele verifica se eles estão dentro de algum dos padrões predeterminados para cada doença. Se houver uma correspondência, a doença correspondente será sugerida como resultado.
+
+É importante lembrar que sintomas não são suficientes para um diagnóstico preciso. O sistema não pode substituir a experiência e o conhecimento de um médico. É recomendado procurar assistência médica para um diagnóstico preciso e um plano de tratamento adequado em caso de suspeita de doença ou condição médica.
+
+O seu objetivo é fornecer informações gerais e orientação preliminar, auxiliando os usuários a entender melhor suas condições de saúde e tomar decisões informadas. Contudo, o diagnóstico médico adequado requer uma análise abrangente, incluindo o histórico médico, exames físicos e, possivelmente, exames laboratoriais.
+
+Dessa forma, consulte um médico para ter um diagnóstico preciso e um plano de tratamento adequado para suas necessidades individuais.
 
 ## Screenshots
 Adicione 2 ou mais screenshots do projeto em termos de interface e/ou funcionamento.
@@ -93,5 +98,7 @@ Quaisquer outras informações sobre o projeto podem ser descritas aqui. Não es
 (iV) Trabalhos Futuros.
 
 ## Fontes
-Referencie, adequadamente, as referências utilizadas.
-Indique ainda sobre fontes de leitura complementares.
+Ministério da Saúde. Doenças respiratórias crônicas [Internet]. Brasília: Ministério da Saúde; 2010. Disponível em: https://bvsms.saude.gov.br/bvs/publicacoes/doencas_respiratorias_cronicas.pdf. Acesso em: 02/06/2023.
+Inês Dutra. Lógica de Programação em Prolog [Internet]. Porto: Universidade do Porto; 2009. Disponível em: https://www.dcc.fc.up.pt/~ines/aulas/0910/MIM/aulas/dedutivos.pdf. Acesso em: 02/06/2023.
+iRaneem. Diagnosis Expert System. Disponível em: https://github.com/iRaneem/Diagnosis-Expert-System-. Acesso em: 02/06/2023.
+Mycin. In: Wikipedia: The Free Encyclopedia. Disponível em: https://en.wikipedia.org/wiki/Mycin. Acesso em: 02/06/2023.

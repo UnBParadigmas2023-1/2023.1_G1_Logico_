@@ -22,3 +22,17 @@ sintoma(ganglios_inflamados).
 sintoma(voz_rancha).
 sintoma(tosse_seca).
 sintoma(febre_leve).
+sintoma(inchaco_na_perna).
+sintoma(palpitacao).
+sintoma(ganho_peso).
+sintoma(tosse_persistente).
+sintoma(batimento_acelerado).
+sintoma(tontura).
+sintoma(desmaio).
+sintoma(desconforto_no_peito).
+sintoma(paralisia).
+sintoma(dificuldade_na_fala).
+sintoma(perda_visao).
+sintoma(ansiedade).
+sintoma(hemorragia_nasal).
+sintoma(pulsacao_pescoco).

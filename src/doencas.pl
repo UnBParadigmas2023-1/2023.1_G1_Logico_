@@ -65,6 +65,40 @@ tem_outra_doenca :-    % Exemplo de outra doença com sintomas similares
     sintoma(dor_de_cabeca),
     sintoma(fadiga).
 
+% Doenças cardiovasculares
+
+tem_insuficiencia_cardiaca :-
+    sintoma(inchaco_na_perna),
+    sintoma(falta_ar),
+    sintoma(fadiga),
+    sintoma(palpitacao),
+    sintoma(ganho_peso),
+    sintoma(tosse_persistente).
+
+tem_arritmia :- 
+    sintoma(palpitacao),
+    sintoma(batimento_acelerado),
+    sintoma(palpitacao),
+    sintoma(tontura),
+    sintoma(desmaio),
+    sintoma(falta_ar),
+    sintoma(desconforto_no_peito).
+
+tem_AVC :-
+    sintoma(paralisia),
+    sintoma(dificuldade_na_fala),
+    sintoma(perda_visao),
+    sintoma(tontura),
+    sintoma(dor_de_cabeca).
+
+tem_hipertensao :-
+    sintoma(dor_de_cabeca),
+    sintoma(ansiedade),
+    sintoma(falta_ar),
+    sintoma(hemorragia_nasal),
+    sintoma(pulsacao_pescoco).
+
+
 diagnostico(Doenca) :-
     (   tem_febre_amarela
     ->  Doenca = 'Febre Amarela'
@@ -78,5 +112,15 @@ diagnostico(Doenca) :-
     ->  Doenca = 'Pneumonia'
     ;   tem_faringite
     ->  Doenca = 'Faringite'
+    ;   tem_insuficiencia_cardiaca
+    ->  Doenca = 'Insuficiencia Cardiaca'
+    ;   tem_arritmia
+    ->  Doenca = 'Arritmia'
+    ;   tem_AVC
+    ->  Doenca = 'AVC'
+    ;   tem_hipertensao
+    ->  Doenca = 'Hipertensao'
+    ;   tem_outra_doenca
+    ->  Doenca = 'Outra Doenca'
     ;   Doenca = 'Doenca desconhecida'
     ).

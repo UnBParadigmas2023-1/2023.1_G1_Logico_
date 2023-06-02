@@ -95,27 +95,27 @@ Quaisquer outras informações sobre o projeto podem ser descritas aqui. Não es
 
 ### (i) Lições Aprendidas:
 
--- A importância de uma boa organização e estruturação do código para facilitar a manutenção e expansão do sistema.
--- A necessidade de uma validação rigorosa dos dados de entrada para garantir a precisão dos resultados.
--- A importância de documentar adequadamente o código e fornecer instruções claras de uso.
+-  A importância de uma boa organização e estruturação do código para facilitar a manutenção e expansão do sistema.
+-  A necessidade de uma validação rigorosa dos dados de entrada para garantir a precisão dos resultados.
+-  A importância de documentar adequadamente o código e fornecer instruções claras de uso.
 
 ### (ii) Percepções:
 
--- A implementação em Prolog permitiu a expressão de regras de forma clara, facilitando o desenvolvimento e a compreensão do sistema.
+-  A implementação em Prolog permitiu a expressão de regras de forma clara, facilitando o desenvolvimento e a compreensão do sistema.
 
 ### (iii) Contribuições e Fragilidades:
 
 
 ### (iv) Trabalhos Futuros:
 
--- Melhorar a precisão do sistema, considerando mais sintomas e doenças.
--- Implementar uma interface de usuário amigável para facilitar a interação com o sistema.
--- Incorporar uma base de conhecimento mais atualizada e abrangente sobre doenças e sintomas.
--- Realizar testes e validações adicionais para garantir a confiabilidade e eficácia do sistema.
+-  Melhorar a precisão do sistema, considerando mais sintomas e doenças.
+-  Implementar uma interface de usuário amigável para facilitar a interação com o sistema.
+-  Incorporar uma base de conhecimento mais atualizada e abrangente sobre doenças e sintomas.
+-  Realizar testes e validações adicionais para garantir a confiabilidade e eficácia do sistema.
 
 
 ## Fontes
-Ministério da Saúde. Doenças respiratórias crônicas [Internet]. Brasília: Ministério da Saúde; 2010. Disponível em: https://bvsms.saude.gov.br/bvs/publicacoes/doencas_respiratorias_cronicas.pdf. Acesso em: 02/06/2023.
-Inês Dutra. Lógica de Programação em Prolog [Internet]. Porto: Universidade do Porto; 2009. Disponível em: https://www.dcc.fc.up.pt/~ines/aulas/0910/MIM/aulas/dedutivos.pdf. Acesso em: 02/06/2023.
-iRaneem. Diagnosis Expert System. Disponível em: https://github.com/iRaneem/Diagnosis-Expert-System-. Acesso em: 02/06/2023.
-Mycin. In: Wikipedia: The Free Encyclopedia. Disponível em: https://en.wikipedia.org/wiki/Mycin. Acesso em: 02/06/2023.
+- Ministério da Saúde. Doenças respiratórias crônicas [Internet]. Brasília: Ministério da Saúde; 2010. Disponível em: https://bvsms.saude.gov.br/bvs/publicacoes/doencas_respiratorias_cronicas.pdf. Acesso em: 02/06/2023.
+- Inês Dutra. Lógica de Programação em Prolog [Internet]. Porto: Universidade do Porto; 2009. Disponível em: https://www.dcc.fc.up.pt/~ines/aulas/0910/MIM/aulas/dedutivos.pdf. Acesso em: 02/06/2023.
+- iRaneem. Diagnosis Expert System. Disponível em: https://github.com/iRaneem/Diagnosis-Expert-System-. Acesso em: 02/06/2023.
+- Mycin. In: Wikipedia: The Free Encyclopedia. Disponível em: https://en.wikipedia.org/wiki/Mycin. Acesso em: 02/06/2023.

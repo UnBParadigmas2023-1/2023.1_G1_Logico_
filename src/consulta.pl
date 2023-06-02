@@ -30,5 +30,6 @@ perguntar_sintoma(Sintoma, Resposta) :- format('Voce apresenta o sintoma "~w"? (
 processar_resposta(Sintoma, 's') :-
     asserta(positivo(Sintoma)).
 processar_resposta(Sintoma, 'n').
+processar_resposta(Sintoma, _) :- writeln('Resposta inválida'),  perguntar_sintoma(Sintoma, Resposta), processar_resposta(Sintoma, Resposta).
 
 :- initialization(consultar_sintomas).

@@ -14,8 +14,8 @@ consultar_sintomas :-
     diagnostico_sintomas(Sintomas),
     print_divider,
     writeln(''),
+    diagnostico(Doenca),
     ansi_format([bold, fg(green)], '                        Diagnóstico:', []),
-    diagnostico(Doenca).
     ansi_format([bold, fg(yellow)], Doenca, []),
     writeln(''),
     print_divider.

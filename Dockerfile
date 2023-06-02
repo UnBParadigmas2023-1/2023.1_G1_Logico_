@@ -13,4 +13,4 @@ COPY *.pl /app/
 WORKDIR /app
 
 # Defina o comando padrão como iniciar o SWI-Prolog interativo
-CMD ["swipl", "-s", "deseases.pl"]
+CMD ["swipl", "-s", "src/consulta.pl"]

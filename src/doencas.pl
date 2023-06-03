@@ -85,6 +85,31 @@ tem_artrite :-
     positivo(fraqueza),
     write("A artrite é uma condição que causa inflamação nas articulações, resultando em dor, inchaço e rigidez. Se você apresenta esses sintomas, é importante procurar um médico para avaliação e diagnóstico adequados. O tratamento da artrite varia dependendo da causa e pode incluir medicamentos, fisioterapia e mudanças no estilo de vida para aliviar os sintomas e melhorar a função das articulações."), nl.
 
+tem_meningite :-
+    positivo(febre),
+    positivo(dor_cabeca),
+    positivo(dor_pescoco),
+    positivo(fraqueza),
+    positivo(nausea),
+    positivo(vomito),
+    positivo(dificuldade_concentracao).
+    positivo(sensibilidade_luz),
+    positivo(erupcao_cutanea),
+    positivo(convulsoes),
+    write("A meningite é uma inflamação das meninges, que são membranas que envolvem o cérebro e a medula espinhal."),nl.
+    
+tem_raiva :-
+    positivo(febre),
+    positivo(dor_cabeca),
+    positivo(dor_garganta),
+    positivo(nausea),
+    positivo(anorexia,
+    positivo(entorpecimento),
+    positivo(irritabilidade),
+    positivo(inquietude),
+    positivo(sensacao_angustia),
+    write("A raiva é uma doença infecciosa viral aguda, que acomete mamíferos, inclusive o homem, e caracteriza-se como uma encefalite progressiva e aguda com letalidade de aproximadamente 100%. É causada pelo Vírus do gênero Lyssavirus, da família Rabhdoviridae."),nl.
+
 tem_vertigem :-
     positivo(nausea),
     positivo(tontura),
@@ -92,13 +117,6 @@ tem_vertigem :-
     positivo(perda_equilibrio),
     positivo(zumbido_ouvido),
     write("A vertigem é uma sensação de tontura e desequilíbrio, muitas vezes acompanhada de náuseas, zumbido no ouvido e perda de equilíbrio. Se você está experimentando esses sintomas, é importante consultar um médico para avaliar a causa subjacente. A vertigem pode ter várias causas, incluindo distúrbios do ouvido interno, enxaquecas e problemas neurológicos. O tratamento depende da causa e pode incluir medicamentos, fisioterapia e mudanças no estilo de vida."), nl.
-
-
-
-tem_outra_doenca :-    % Exemplo de outra doença com sintomas similares
-    positivo(febre),
-    positivo(dor_cabeca),
-    positivo(fadiga).
 
 % Doenças cardiovasculares
 
@@ -185,43 +203,25 @@ tem_calculos_biliares :-
     write("A vesícula biliar é um órgão em forma de saco, parecida com uma pera, localizada abaixo do lobo direito do fígado. Sua função é armazenar a bile, líquido produzido pelo fígado que atua na digestão de gorduras no intestino. A bile é formada pela mistura de várias substâncias, entre elas o colesterol, responsável pela imensa maioria da formação de cálculos (pedras), que podem impedir o fluxo da bile para o intestino e causar uma inflamação chamada colecistite. Se você apresenta esses sintomas, é importante procurar atendimento médico imediatamente. O tratamento depende do número de cálculos, do tamanho que apresentam, da idade do paciente e de outros fatores que só poderão ser avaliados por um médico especialista. "), nl.
 
 diagnostico(Doenca) :-
-    (   tem_febre_amarela
-    ->  Doenca = 'Febre Amarela'
-    ;   tem_dengue
-    ->  Doenca = 'Dengue'
-    ;   tem_gripe
-    ->  Doenca = 'Gripe'
-    ;   tem_sinusite
-    ->  Doenca = 'Sinusite'
-    ;   tem_pneumonia
-    ->  Doenca = 'Pneumonia'
-    ;   tem_faringite
-    ->  Doenca = 'Faringite'
-    ;   tem_malaria
-    ->  Doenca = 'Malaria'
-    ;   tem_catapora
-    ->  Doenca = 'Catapora'
-    ;   tem_artrite
-    ->  Doenca = 'Artrite'
-    ;   tem_vertigem
-    ->  Doenca = 'Vertigem'
-    ;   tem_insuficiencia_cardiaca
-    ->  Doenca = 'Insuficiencia Cardiaca'
-    ;   tem_arritmia
-    ->  Doenca = 'Arritmia'
-    ;   tem_AVC
-    ->  Doenca = 'AVC'
-    ;   tem_hipertensao
-    ->  Doenca = 'Hipertensao'
-    ;   tem_refluxo_gastroesofagico
-    ->  Doenca = 'Refluxo gastroesofagico'
-    ;   tem_ulcera_peptica
-    ->  Doenca = 'Ulcera peptica'
-    ;   tem_hepatite
-    ->  Doenca = 'Hepatite'
-    ;   tem_calculos_biliares
-    ->  Doenca = 'Calculos biliares'
-    ;   tem_outra_doenca
-    ->  Doenca = 'Outra Doenca'
-    ;   Doenca = 'Doenca desconhecida'
-    ).
+    (tem_febre_amarela           ->  Doenca = 'Febre Amarela';
+     tem_dengue                  ->  Doenca = 'Dengue';
+     tem_gripe                   ->  Doenca = 'Gripe';
+     tem_sinusite                ->  Doenca = 'Sinusite';
+     tem_pneumonia               ->  Doenca = 'Pneumonia';
+     tem_faringite               ->  Doenca = 'Faringite';
+     tem_malaria                 ->  Doenca = 'Malaria';
+     tem_meningite               ->  Doenca = 'Meningite';
+     tem_raiva                   ->  Doenca = 'Raiva';
+     tem_catapora                ->  Doenca = 'Catapora'; 
+     tem_artrite                 ->  Doenca = 'Artrite'; 
+     tem_vertigem                ->  Doenca = 'Vertigem'; 
+     tem_insuficiencia_cardiaca  ->  Doenca = 'Insuficiencia Cardiaca'; 
+     tem_arritmia                ->  Doenca = 'Arritmia'; 
+     tem_AVC                     ->  Doenca = 'AVC'; 
+     tem_hipertensao             ->  Doenca = 'Hipertensao';
+     tem_refluxo_gastroesofagico ->  Doenca = 'Refluxo gastroesofagico';   
+     tem_ulcera_peptica          ->  Doenca = 'Ulcera peptica';
+     tem_hepatite                ->  Doenca = 'Hepatite';
+     tem_calculos_biliares       ->  Doenca = 'Calculos biliares'; 
+     Doenca = 'Doenca desconhecida').
+     

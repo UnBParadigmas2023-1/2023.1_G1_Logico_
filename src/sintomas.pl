@@ -7,6 +7,7 @@ sintoma(dor_garganta).
 sintoma(dor_ouvido).
 sintoma(dor_abdominal).
 sintoma(dor_articular).
+sintoma(dor_pescoco).
 sintoma(dor_toracica_nao_cardiaca).
 sintoma(dor_costas).
 sintoma(fadiga).
@@ -59,3 +60,14 @@ sintoma(palidez).
 sintoma(perda_equilibrio).
 sintoma(zumbido_ouvido).
 sintoma(inchaco_perna).
+sintoma(inchaco_perna).
+sintoma(inchaco_perna).
+sintoma(dificuldade_concentracao).
+sintoma(sensibilidade_luz).
+sintoma(erupcao_cutanea).
+sintoma(convulsoes).
+sintoma(anorexia).
+sintoma(entorpecimento).
+sintoma(irritabilidade).
+sintoma(inquietude).
+sintoma(sensacao_angustia).

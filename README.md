@@ -67,6 +67,20 @@ Explique como usar seu projeto.
 Procure ilustrar em passos, com apoio de telas do software, seja com base na interface gráfica, seja com base no terminal.
 Nessa seção, deve-se revelar de forma clara sobre o funcionamento do software.
 
+## Uso 
+Explique como usar seu projeto.
+Procure ilustrar em passos, com apoio de telas do software, seja com base na interface gráfica, seja com base no terminal.
+Nessa seção, deve-se revelar de forma clara sobre o funcionamento do software.
+
+### Construindo o Diagnóstico
+![Screenshot from 2023-06-02 21-45-21](https://github.com/UnBParadigmas2023-1/2023.1_G1_Logico_Sistema_Diagnostico_Doencas/assets/69691521/01dd1375-b581-4c82-9ce3-724d0c71b899)
+
+### Diagnóstico e nova consulta
+![Screenshot from 2023-06-02 21-46-22](https://github.com/UnBParadigmas2023-1/2023.1_G1_Logico_Sistema_Diagnostico_Doencas/assets/69691521/00bcba31-093c-4155-9505-19dced26594b)
+
+### Diagnóstico e Finalização
+![Screenshot from 2023-06-02 21-46-41](https://github.com/UnBParadigmas2023-1/2023.1_G1_Logico_Sistema_Diagnostico_Doencas/assets/69691521/65923f38-b6b2-4ab0-aebb-a18a767dac2a)
+
 ## Vídeo
 Adicione 1 ou mais vídeos com a execução do projeto.
 Procure: 

@@ -31,8 +31,14 @@ O seu objetivo é fornecer informações gerais e orientação preliminar, auxil
 Dessa forma, consulte um médico para ter um diagnóstico preciso e um plano de tratamento adequado para suas necessidades individuais.
 
 ## Screenshots
-Adicione 2 ou mais screenshots do projeto em termos de interface e/ou funcionamento.
+### Construindo o Diagnóstico
+![Screenshot from 2023-06-02 21-45-21](https://github.com/UnBParadigmas2023-1/2023.1_G1_Logico_Sistema_Diagnostico_Doencas/assets/69691521/01dd1375-b581-4c82-9ce3-724d0c71b899)
 
+### Diagnóstico e nova consulta
+![Screenshot from 2023-06-02 21-46-22](https://github.com/UnBParadigmas2023-1/2023.1_G1_Logico_Sistema_Diagnostico_Doencas/assets/69691521/00bcba31-093c-4155-9505-19dced26594b)
+
+### Diagnóstico e Finalização
+![Screenshot from 2023-06-02 21-46-41](https://github.com/UnBParadigmas2023-1/2023.1_G1_Logico_Sistema_Diagnostico_Doencas/assets/69691521/65923f38-b6b2-4ab0-aebb-a18a767dac2a)
 
 # Execução
 
@@ -63,23 +69,13 @@ Para construir a imagem Docker e executar o contêiner com o terminal SWI-Prolog
 Esses comandos criarão uma imagem com o nome "Prolog" usando o Dockerfile fornecido e iniciarão o contêiner com o terminal SWI-Prolog interativo.
 
 ## Uso 
-Explique como usar seu projeto.
-Procure ilustrar em passos, com apoio de telas do software, seja com base na interface gráfica, seja com base no terminal.
-Nessa seção, deve-se revelar de forma clara sobre o funcionamento do software.
+### 1. Após executar o start.sh, preencha com s(Sim) ou n(Não) para os sintomas apresentados:
 
-## Uso 
-Explique como usar seu projeto.
-Procure ilustrar em passos, com apoio de telas do software, seja com base na interface gráfica, seja com base no terminal.
-Nessa seção, deve-se revelar de forma clara sobre o funcionamento do software.
+Note que se o caracter for inválido, será solicitado uma nova resposta para o mesmo sintoma.
 
-### Construindo o Diagnóstico
-![Screenshot from 2023-06-02 21-45-21](https://github.com/UnBParadigmas2023-1/2023.1_G1_Logico_Sistema_Diagnostico_Doencas/assets/69691521/01dd1375-b581-4c82-9ce3-724d0c71b899)
+### 2. Se o usuário desejar outro diagnóstico, ele poderá voltar para o início do fluxo:
 
-### Diagnóstico e nova consulta
-![Screenshot from 2023-06-02 21-46-22](https://github.com/UnBParadigmas2023-1/2023.1_G1_Logico_Sistema_Diagnostico_Doencas/assets/69691521/00bcba31-093c-4155-9505-19dced26594b)
-
-### Diagnóstico e Finalização
-![Screenshot from 2023-06-02 21-46-41](https://github.com/UnBParadigmas2023-1/2023.1_G1_Logico_Sistema_Diagnostico_Doencas/assets/69691521/65923f38-b6b2-4ab0-aebb-a18a767dac2a)
+### 3. Se não, poderá encerrar a aplicação:
 
 ## Vídeo
 Adicione 1 ou mais vídeos com a execução do projeto.
@@ -94,7 +90,7 @@ TEMPO: +/- 15min
 Apresente, brevemente, como cada membro do grupo contribuiu para o projeto.
 |Nome do Membro | Contribuição | Significância da Contribuição para o Projeto (Excelente/Boa/Regular/Ruim/Nula) |
 | -- | -- | -- |
-|  Douglas Farias de Castro      | |  |
+|  Douglas Farias de Castro      | Auxílio na depuração e ajustes na lógica para o diagnóstico, inserção de novas doenças infecciosas, manutenção na base de sintomas e doenças, auxilio na interface e documentação. | Boa |
 |  Gustavo Duarte Moreira        | | |
 |  João Victor de Oliveira Matos | Auxilie na lógica de diagnosticar doença e de realizar nova consulta, adição de verificação de entrada do usuário| Excelente |
 |  Kathlyn Lara Murussi          | | |
@@ -105,7 +101,6 @@ Apresente, brevemente, como cada membro do grupo contribuiu para o projeto.
 |  Vitor Manoel Aquino de Brito  | | |
 
 ## Outros 
-Quaisquer outras informações sobre o projeto podem ser descritas aqui. Não esqueça, entretanto, de informar sobre:
 
 ### (i) Lições Aprendidas:
 

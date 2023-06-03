@@ -1,4 +1,8 @@
 :- dynamic positivo/1.
+:- dynamic clearBase/1.
+:- dynamic clearBase1/1.
+:- dynamic consultar_sintomas/0.
+:- dynamic consultar_sintomas/1.
 :- consult(interface).
 :- use_module(library(ansi_term)).
 :- consult('sintomas.pl').
@@ -9,16 +13,26 @@
 positivo(nothing).
 
 consultar_sintomas :-
+    clearBase(positivo(_)),
     print_initial_screen,
     findall(Sintoma, sintoma(Sintoma), Sintomas),
     diagnostico_sintomas(Sintomas),
     print_divider,
     writeln(''),
-    diagnostico(Doenca),
-    ansi_format([bold, fg(green)], '                        Diagnóstico:', []),
-    ansi_format([bold, fg(yellow)], Doenca, []),
+    exibir_diagnostico,
     writeln(''),
-    print_divider.
+    writeln('Deseja realizar uma nova consulta? (s/n)'),
+    read(Resposta),
+    consultar_sintomas(Resposta).
+
+consultar_sintomas(s) :- consultar_sintomas.
+consultar_sintomas(n) :- writeln("Até a proxima"), !.
+
+clearBase(X):- clearBase1(X), fail.
+clearBase(_).
+
+clearBase1(X):- retract(X).
+clearBase1(_).
 
 diagnostico_sintomas([]).
 
@@ -32,4 +46,15 @@ processar_resposta(Sintoma, 's') :-
 processar_resposta(Sintoma, 'n').
 processar_resposta(Sintoma, _) :- writeln('Resposta inválida'),  perguntar_sintoma(Sintoma, Resposta), processar_resposta(Sintoma, Resposta).
 
-:- initialization(consultar_sintomas).
+exibir_diagnostico:- 
+    diagnostico(Doenca),
+    ansi_format([bold, fg(green)], '                        Diagnóstico:', []),
+    ansi_format([bold, fg(yellow)], Doenca, []),
+    writeln(''),
+    print_divider.
+
+main:-
+    consultar_sintomas,
+    halt.
+
+:- initialization(main).

@@ -82,7 +82,7 @@ Apresente, brevemente, como cada membro do grupo contribuiu para o projeto.
 | -- | -- | -- |
 |  Douglas Farias de Castro      | |  |
 |  Gustavo Duarte Moreira        | | |
-|  João Victor de Oliveira Matos | | |
+|  João Victor de Oliveira Matos | Auxilie na lógica de diagnosticar doença e de realizar nova consulta, adição de verificação de entrada do usuário| Excelente |
 |  Kathlyn Lara Murussi          | | |
 |  Luís Guilherme Gaboardi Lins  | | |
 |  Thiago Aparecido Lopes Santos |  |  |

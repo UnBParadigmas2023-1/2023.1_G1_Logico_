@@ -118,13 +118,6 @@ tem_vertigem :-
     positivo(zumbido_ouvido),
     write("A vertigem é uma sensação de tontura e desequilíbrio, muitas vezes acompanhada de náuseas, zumbido no ouvido e perda de equilíbrio. Se você está experimentando esses sintomas, é importante consultar um médico para avaliar a causa subjacente. A vertigem pode ter várias causas, incluindo distúrbios do ouvido interno, enxaquecas e problemas neurológicos. O tratamento depende da causa e pode incluir medicamentos, fisioterapia e mudanças no estilo de vida."), nl.
 
-
-
-tem_outra_doenca :-    % Exemplo de outra doença com sintomas similares
-    positivo(febre),
-    positivo(dor_cabeca),
-    positivo(fadiga).
-
 % Doenças cardiovasculares
 
 tem_insuficiencia_cardiaca :-
@@ -225,6 +218,5 @@ diagnostico(Doenca) :-
      tem_ulcera_peptica          ->  Doenca = 'Ulcera peptica';
      tem_hepatite                ->  Doenca = 'Hepatite';
      tem_calculos_biliares       ->  Doenca = 'Calculos biliares'; 
-     tem_outra_doenca            ->  Doenca = 'Outra Doenca'; 
      Doenca = 'Doenca desconhecida').
      

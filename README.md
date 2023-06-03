@@ -70,29 +70,27 @@ Esses comandos criarão uma imagem com o nome "Prolog" usando o Dockerfile forne
 
 ## Uso 
 ### 1. Após executar o start.sh, preencha com s(Sim) ou n(Não) para os sintomas apresentados:
+![1](https://github.com/UnBParadigmas2023-1/2023.1_G1_Logico_Sistema_Diagnostico_Doencas/assets/69691521/4ae6449b-3175-46fd-a999-83cbdb0dc211)
 
 Note que se o caracter for inválido, será solicitado uma nova resposta para o mesmo sintoma.
 
 ### 2. Se o usuário desejar outro diagnóstico, ele poderá voltar para o início do fluxo:
+![2](https://github.com/UnBParadigmas2023-1/2023.1_G1_Logico_Sistema_Diagnostico_Doencas/assets/69691521/5288e726-d530-4fde-9cf3-ea950f83be4f)
 
 ### 3. Se não, poderá encerrar a aplicação:
+![3](https://github.com/UnBParadigmas2023-1/2023.1_G1_Logico_Sistema_Diagnostico_Doencas/assets/69691521/56c98205-b06e-4115-ab86-d76dde2a44b1)
 
 ## Vídeo
-Adicione 1 ou mais vídeos com a execução do projeto.
-Procure: 
-(i) Introduzir o projeto;
-(ii) Mostrar passo a passo o código, explicando-o, e deixando claro o que é de terceiros, e o que é contribuição real da equipe;
-(iii) Apresentar particularidades do Paradigma, da Linguagem, e das Tecnologias, e
-(iV) Apresentar lições aprendidas, contribuições, pendências, e ideias para trabalhos futuros.
-OBS: TODOS DEVEM PARTICIPAR, CONFERINDO PONTOS DE VISTA.
-TEMPO: +/- 15min
+
+[Apresentação](https://youtu.be/DekoR2XxL54)
+
 ## Participações
 Apresente, brevemente, como cada membro do grupo contribuiu para o projeto.
 |Nome do Membro | Contribuição | Significância da Contribuição para o Projeto (Excelente/Boa/Regular/Ruim/Nula) |
 | -- | -- | -- |
 |  Douglas Farias de Castro      | Auxílio na depuração e ajustes na lógica para o diagnóstico, inserção de novas doenças infecciosas, manutenção na base de sintomas e doenças, auxilio na interface e documentação. | Boa |
 |  Gustavo Duarte Moreira        | | |
-|  João Victor de Oliveira Matos | Auxilie na lógica de diagnosticar doença e de realizar nova consulta, adição de verificação de entrada do usuário| Excelente |
+|  João Victor de Oliveira Matos | Auxílio na lógica de diagnosticar doença e de realizar nova consulta, adição de verificação de entrada do usuário| Excelente |
 |  Kathlyn Lara Murussi          | | |
 |  Luís Guilherme Gaboardi Lins  | | |
 |  Thiago Aparecido Lopes Santos |  |  |

@@ -92,7 +92,7 @@ Apresente, brevemente, como cada membro do grupo contribuiu para o projeto.
 |  Gustavo Duarte Moreira        | | |
 |  João Victor de Oliveira Matos | Auxílio na lógica de diagnosticar doença e de realizar nova consulta, adição de verificação de entrada do usuário| Excelente |
 |  Kathlyn Lara Murussi          | | |
-|  Luís Guilherme Gaboardi Lins  | | |
+|  Luís Guilherme Gaboardi Lins  | Desenvolvimento inicial/geral do sistema, do gameloop e adição de sintomas e doenças | |
 |  Thiago Aparecido Lopes Santos |  |  |
 |  Thiago Siqueira Gomes         | Adicionei interface para o sistema, crie modulos de sintomas, doencas, consulta e interface, nos quais dividi o codigo inicial com o objetivo de ter maior organização do sistema através da modularização, também realizei correções pontuais na lógica do modulo de consulta | Excelente |
 |  Victor Hugo Carvalho Silva    | Adicionei as doenças gastrointestinais, seus respectivos sintomas e descrições, coloquei as regras para seus diagnósticos e ajudei a encontrar erros, que foram corrigidos ao longo do desenvolvimento pela equipe | Boa |

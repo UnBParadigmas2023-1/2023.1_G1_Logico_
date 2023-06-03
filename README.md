@@ -89,7 +89,7 @@ Apresente, brevemente, como cada membro do grupo contribuiu para o projeto.
 |Nome do Membro | Contribuição | Significância da Contribuição para o Projeto (Excelente/Boa/Regular/Ruim/Nula) |
 | -- | -- | -- |
 |  Douglas Farias de Castro      | Auxílio na depuração e ajustes na lógica para o diagnóstico, inserção de novas doenças infecciosas, manutenção na base de sintomas e doenças, auxilio na interface e documentação. | Boa |
-|  Gustavo Duarte Moreira        | | |
+|  Gustavo Duarte Moreira        | Ajuda na definição do tema, Auxilio na criação da documentação do READ.ME, Adaptação do Layout das doenças e seus sintomas, Revisão de codigo e merge de PR para a Branch main Teste de funcionamento do programa. | Boa |
 |  João Victor de Oliveira Matos | Auxílio na lógica de diagnosticar doença e de realizar nova consulta, adição de verificação de entrada do usuário| Excelente |
 |  Kathlyn Lara Murussi          | | |
 |  Luís Guilherme Gaboardi Lins  | Desenvolvimento inicial/geral do sistema, do gameloop e adição de sintomas e doenças | Excelente |
@@ -111,7 +111,9 @@ Apresente, brevemente, como cada membro do grupo contribuiu para o projeto.
 -  A implementação em Prolog permitiu a expressão de regras de forma clara, facilitando o desenvolvimento e a compreensão do sistema.
 
 ### (iii) Contribuições e Fragilidades:
-O projeto apresenta algumas fragilidades que precisam ser consideradas. Uma delas está na maneira como o fluxo principal de inserção dos sintomas dos pacientes é apresentado, pois pode se tornar exaustivo preencher todos os sintomas até chegar a um diagnóstico. Além disso, outra fragilidade relevante é a confiabilidade da análise, uma vez que o sistema não fornece uma lista de possíveis diagnósticos, limitando-se apenas ao primeiro encontrado.
+- O projeto apresenta algumas fragilidades que precisam ser consideradas: 
+  - Uma delas está na maneira como o fluxo principal de inserção dos sintomas dos pacientes é apresentado, pois pode se tornar exaustivo preencher todos os sintomas até chegar a um diagnóstico. 
+  - Além disso, outra fragilidade relevante é a confiabilidade da análise, uma vez que o sistema não fornece uma lista de possíveis diagnósticos, limitando-se apenas ao primeiro encontrado.
 
 
 ### (iv) Trabalhos Futuros:

@@ -18,7 +18,7 @@
 | 20/0028677  |  Vitor Manoel Aquino de Brito  |
 
 
-## Sobre 
+## Sobre
 
 Este sistema de diagnóstico de doenças visa auxiliar na identificação de possíveis condições médicas a partir dos sintomas relatados. No entanto, é importante ressaltar que este sistema é apenas uma ferramenta de referência e não substitui a consulta médica profissional.
 
@@ -68,7 +68,7 @@ Para construir a imagem Docker e executar o contêiner com o terminal SWI-Prolog
 
 Esses comandos criarão uma imagem com o nome "Prolog" usando o Dockerfile fornecido e iniciarão o contêiner com o terminal SWI-Prolog interativo.
 
-## Uso 
+## Uso
 ### 1. Após executar o start.sh, preencha com s(Sim) ou n(Não) para os sintomas apresentados:
 ![1](https://github.com/UnBParadigmas2023-1/2023.1_G1_Logico_Sistema_Diagnostico_Doencas/assets/69691521/4ae6449b-3175-46fd-a999-83cbdb0dc211)
 
@@ -93,12 +93,12 @@ Apresente, brevemente, como cada membro do grupo contribuiu para o projeto.
 |  João Victor de Oliveira Matos | Auxílio na lógica de diagnosticar doença e de realizar nova consulta, adição de verificação de entrada do usuário| Excelente |
 |  Kathlyn Lara Murussi          | | |
 |  Luís Guilherme Gaboardi Lins  | Desenvolvimento inicial/geral do sistema, do gameloop e adição de sintomas e doenças | Excelente |
-|  Thiago Aparecido Lopes Santos |  |  |
+|  Thiago Aparecido Lopes Santos | Adicionei novas doenças e sintomas e incrementei a lógica da interface para permitir o encerramento da consulta após a inserção dos sintomas desejados. Ajudei nos testes para identificar possíveis problemas de execução. | Boa |
 |  Thiago Siqueira Gomes         | Adicionei interface para o sistema, crie modulos de sintomas, doencas, consulta e interface, nos quais dividi o codigo inicial com o objetivo de ter maior organização do sistema através da modularização, também realizei correções pontuais na lógica do modulo de consulta | Excelente |
 |  Victor Hugo Carvalho Silva    | Adicionei as doenças gastrointestinais, seus respectivos sintomas e descrições, coloquei as regras para seus diagnósticos e ajudei a encontrar erros, que foram corrigidos ao longo do desenvolvimento pela equipe | Boa |
 |  Vitor Manoel Aquino de Brito  | Adicionei novas doenças e sintomas na base de conhecimento, alterando as regras já existentes para definir o diagnóstico. Adição de novas regras para definir qual doença o usuário possuía baseado nos sintomas. Também atuei no debug do código encontrando erros posteriormente corrigidos pelo grupo | Excelente |
 
-## Outros 
+## Outros
 
 ### (i) Lições Aprendidas:
 

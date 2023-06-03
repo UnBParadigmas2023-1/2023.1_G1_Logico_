@@ -85,8 +85,8 @@ Apresente, brevemente, como cada membro do grupo contribuiu para o projeto.
 |  João Victor de Oliveira Matos | | |
 |  Kathlyn Lara Murussi          | | |
 |  Luís Guilherme Gaboardi Lins  | | |
-|  Thiago Aparecido Lopes Santos | | |
-|  Thiago Siqueira Gomes         | | |
+|  Thiago Aparecido Lopes Santos |  |  |
+|  Thiago Siqueira Gomes         | Adicionei interface para o sistema, crie modulos de sintomas, doencas, consulta e interface, nos quais dividi o codigo inicial com o objetivo de ter maior organização do sistema através da modularização, também realizei correções pontuais na lógica do modulo de consulta | Excelente |
 |  Victor Hugo Carvalho Silva    | | |
 |  Vitor Manoel Aquino de Brito  | | |
 

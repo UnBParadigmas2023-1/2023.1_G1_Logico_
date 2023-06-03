@@ -92,7 +92,7 @@ tem_meningite :-
     positivo(fraqueza),
     positivo(nausea),
     positivo(vomito),
-    positivo(dificuldade_concentracao).
+    positivo(dificuldade_concentracao),
     positivo(sensibilidade_luz),
     positivo(erupcao_cutanea),
     positivo(convulsoes),
@@ -103,7 +103,7 @@ tem_raiva :-
     positivo(dor_cabeca),
     positivo(dor_garganta),
     positivo(nausea),
-    positivo(anorexia,
+    positivo(anorexia),
     positivo(entorpecimento),
     positivo(irritabilidade),
     positivo(inquietude),

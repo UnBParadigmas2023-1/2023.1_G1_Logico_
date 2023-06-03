@@ -102,13 +102,15 @@ tem_outra_doenca :-    % Exemplo de outra doença com sintomas similares
 
 % Doenças cardiovasculares
 
+
 tem_insuficiencia_cardiaca :-
     positivo(fadiga),
     positivo(tosse),
     positivo(falta_ar),
     positivo(palpitacao),
     positivo(ganho_peso),
-    positivo(inchaco_perna).
+    positivo(inchaco_perna),
+    write("A insuficiência cardíaca é uma condição que surge quando os músculos do coração não são capazes de bombear o sangue efetivamente. De forma simples, podemos dizer que o paciente com insuficiência cardíaca é um paciente com o coração fraco.O tratamento é feito com medicamentos que ajudam a baixar a pressão arterial, reduzir a retenção de líquidos e facilitar o bombeamento do sangue."), nl.
 
 tem_arritmia :-
     positivo(desconforto_peito),
@@ -116,21 +118,24 @@ tem_arritmia :-
     positivo(palpitacao),
     positivo(batimento_acelerado),
     positivo(tontura),
-    positivo(desmaio).
+    positivo(desmaio),
+    write("O tratamento é feito com medicamentos que ajudam a baixar a pressão arterial, reduzir a retenção de líquidos e facilitar o bombeamento do sangue.A arritmia cardíaca pode ser benigna ou maligna, sendo as do tipo benignas as mais comuns. As arritmias cardíacas benignas são aquelas que não alteram a função ou o desempenho do coração, e que podem ser controladas com medicação e atividade física, não trazendo riscos para a saúde. Já as arritmias malignas, pioram com esforço ou exercício e podem levar à morte."), nl.
 
 tem_AVC :-
     positivo(dor_cabeca),
     positivo(tontura),
     positivo(paralisia),
     positivo(dificuldade_fala),
-    positivo(perda_visao).
+    positivo(perda_visao),
+    write("O AVC, também conhecido como derrame cerebral ou acidente vascular cerebral, ocorre quando há entupimento ou rompimento dos vasos que levam sangue ao cérebro, causando a paralisia da região afetada no cérebro. A condição provoca sintomas como perda súbita de visão, dor de cabeça intensa e diminuição ou perda súbita da força na face, no braço ou na perna de um lado do corpo."), nl.
 
 tem_hipertensao :-
     positivo(dor_cabeca),
     positivo(falta_ar),
     positivo(ansiedade),
     positivo(hemorragia_nasal),
-    positivo(pulsacao_pescoco).
+    positivo(pulsacao_pescoco),
+    write("A hipertensão arterial sistêmica (HAS), também chamada de pressão alta, é uma condição caracterizada por níveis continuamente elevados de pressão sanguínea nas artérias. Uma pessoa é considerada hipertensa quando a sua pressão fica maior ou igual a 14 por 9 (140/90mmHg) na maior parte do tempo. Segundo a Pesquisa Nacional de Saúde, do IBGE, essa era a realidade de cerca de 24% dos brasileiros com mais de 18 anos em 2019."), nl.
 
 % Doenças gastrointestinais
 

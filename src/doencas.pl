@@ -157,6 +157,52 @@ tem_hipertensao :-
     positivo(hemorragia_nasal),
     positivo(pulsacao_pescoco).
 
+% Doenças gastrointestinais
+
+tem_refluxo_gastroesofagico :-
+    positivo(azia),
+    positivo(regurgitacao_acida),
+    positivo(globus_faringeo),
+    positivo(dor_toracica_nao_cardiaca),
+    positivo(tosse),
+    positivo(dificuldade_engolir),
+    write("O refluxo gastroesofágico (DRGE) é a condição que se desenvolve quando o conteúdo do estômago retorna ao esôfago e provoca sintomas desagradáveis e/ou complicações. Se você apresenta esses sintomas, é importante procurar atendimento médico imediatamente. O tratamento da DRGE objetiva controlar os sintomas, cicatrizar as lesões e prevenir complicações, podendo ser fundamentalmente clínico ou cirúrgico. Em alguns casos, o tratamento pode ser feito através da mudança de hábitos de vida e alimentares. "), nl.
+
+tem_ulcera_peptica :-
+    positivo(dor_abdominal),
+    positivo(queimacao_estomago),
+    positivo(saciedade),
+    positivo(nausea),
+    positivo(vomito),
+    positivo(vomito_com_sangue),
+    positivo(arroto),
+    positivo(falta_de_apetite),
+    write("A úlcera péptica é uma ferida no revestimento do estômago ou duodeno - o início do intestino delgado. Menos comumente, uma úlcera péptica pode desenvolver-se logo acima do estômago, no esôfago, o tubo que liga a boca ao estômago. Se você apresenta esses sintomas, é importante procurar atendimento médico imediatamente. Uma vez que a infecção pela bactéria H. pylori é uma das principais causas de úlceras, quando a infecção por H. pylori é diagnosticada, a pessoa recebe um tratamento que tenha medicamentos que matam a bactéria, reduzem a acidez do estômago e protegem o revestimento do estômago e duodeno. Os antibióticos são utilizados para matar o H. pylori. "), nl.
+
+tem_hepatite :-
+    positivo(fadiga),
+    positivo(falta_de_apetite),
+    positivo(nausea),
+    positivo(dor_abdominal),
+    positivo(ictericia),
+    positivo(urina_escura),
+    positivo(fezes_claras),
+    positivo(cansaco),
+    positivo(tontura),
+    positivo(vomito),
+    write("A hepatite é uma inflamação do fígado e pode ser causada por vírus, uso de alguns remédios, álcool e outras drogas, além de doenças autoimunes, metabólicas e genéticas. Se você apresenta esses sintomas, é importante procurar atendimento médico imediatamente. Diagnosticar a hepatite precocemente é a melhor forma de obter maiores chances de eficácia com o tratamento. "), nl.
+
+tem_calculos_biliares :-
+    positivo(dor_abdominal),
+    positivo(ictericia),
+    positivo(vomito),
+    positivo(dor_costas),
+    positivo(nausea),
+    positivo(diarreia),
+    positivo(urina_escura),
+    positivo(fezes_claras),
+    positivo(inchaco),
+    write("A vesícula biliar é um órgão em forma de saco, parecida com uma pera, localizada abaixo do lobo direito do fígado. Sua função é armazenar a bile, líquido produzido pelo fígado que atua na digestão de gorduras no intestino. A bile é formada pela mistura de várias substâncias, entre elas o colesterol, responsável pela imensa maioria da formação de cálculos (pedras), que podem impedir o fluxo da bile para o intestino e causar uma inflamação chamada colecistite. Se você apresenta esses sintomas, é importante procurar atendimento médico imediatamente. O tratamento depende do número de cálculos, do tamanho que apresentam, da idade do paciente e de outros fatores que só poderão ser avaliados por um médico especialista. "), nl.
 
 diagnostico(Doenca) :-
     (tem_febre_amarela           ->  Doenca = 'Febre Amarela';
@@ -174,6 +220,11 @@ diagnostico(Doenca) :-
      tem_insuficiencia_cardiaca  ->  Doenca = 'Insuficiencia Cardiaca'; 
      tem_arritmia                ->  Doenca = 'Arritmia'; 
      tem_AVC                     ->  Doenca = 'AVC'; 
-     tem_hipertensao             ->  Doenca = 'Hipertensao'; 
+     tem_hipertensao             ->  Doenca = 'Hipertensao';
+     tem_refluxo_gastroesofagico ->  Doenca = 'Refluxo gastroesofagico';   
+     tem_ulcera_peptica          ->  Doenca = 'Ulcera peptica';
+     tem_hepatite                ->  Doenca = 'Hepatite';
+     tem_calculos_biliares       ->  Doenca = 'Calculos biliares'; 
      tem_outra_doenca            ->  Doenca = 'Outra Doenca'; 
      Doenca = 'Doenca desconhecida').
+     

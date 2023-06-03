@@ -81,14 +81,9 @@ Note que se o caracter for inválido, será solicitado uma nova resposta para o 
 ![3](https://github.com/UnBParadigmas2023-1/2023.1_G1_Logico_Sistema_Diagnostico_Doencas/assets/69691521/56c98205-b06e-4115-ab86-d76dde2a44b1)
 
 ## Vídeo
-Adicione 1 ou mais vídeos com a execução do projeto.
-Procure: 
-(i) Introduzir o projeto;
-(ii) Mostrar passo a passo o código, explicando-o, e deixando claro o que é de terceiros, e o que é contribuição real da equipe;
-(iii) Apresentar particularidades do Paradigma, da Linguagem, e das Tecnologias, e
-(iV) Apresentar lições aprendidas, contribuições, pendências, e ideias para trabalhos futuros.
-OBS: TODOS DEVEM PARTICIPAR, CONFERINDO PONTOS DE VISTA.
-TEMPO: +/- 15min
+
+[Apresentação](https://youtu.be/DekoR2XxL54)
+
 ## Participações
 Apresente, brevemente, como cada membro do grupo contribuiu para o projeto.
 |Nome do Membro | Contribuição | Significância da Contribuição para o Projeto (Excelente/Boa/Regular/Ruim/Nula) |

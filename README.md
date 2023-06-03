@@ -113,6 +113,7 @@ Apresente, brevemente, como cada membro do grupo contribuiu para o projeto.
 -  A implementação em Prolog permitiu a expressão de regras de forma clara, facilitando o desenvolvimento e a compreensão do sistema.
 
 ### (iii) Contribuições e Fragilidades:
+O projeto apresenta algumas fragilidades que precisam ser consideradas. Uma delas está na maneira como o fluxo principal de inserção dos sintomas dos pacientes é apresentado, pois pode se tornar exaustivo preencher todos os sintomas até chegar a um diagnóstico. Além disso, outra fragilidade relevante é a confiabilidade da análise, uma vez que o sistema não fornece uma lista de possíveis diagnósticos, limitando-se apenas ao primeiro encontrado.
 
 
 ### (iv) Trabalhos Futuros:

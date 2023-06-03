@@ -129,3 +129,4 @@ Apresente, brevemente, como cada membro do grupo contribuiu para o projeto.
 - Inês Dutra. Lógica de Programação em Prolog [Internet]. Porto: Universidade do Porto; 2009. Disponível em: https://www.dcc.fc.up.pt/~ines/aulas/0910/MIM/aulas/dedutivos.pdf. Acesso em: 02/06/2023.
 - iRaneem. Diagnosis Expert System. Disponível em: https://github.com/iRaneem/Diagnosis-Expert-System-. Acesso em: 02/06/2023.
 - Mycin. In: Wikipedia: The Free Encyclopedia. Disponível em: https://en.wikipedia.org/wiki/Mycin. Acesso em: 02/06/2023.
+- Serrano,Milene. Consutation.zip Programação em Prolog para o domínio cognitivo de diagnósticos. Disonível para alunos da disciplina no ambiente Aprender3 https://aprender3.unb.br/course/view.php?id=17697#section-3

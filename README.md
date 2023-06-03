@@ -92,7 +92,7 @@ Apresente, brevemente, como cada membro do grupo contribuiu para o projeto.
 | -- | -- | -- |
 |  Douglas Farias de Castro      | Auxílio na depuração e ajustes na lógica para o diagnóstico, inserção de novas doenças infecciosas, manutenção na base de sintomas e doenças, auxilio na interface e documentação. | Boa |
 |  Gustavo Duarte Moreira        | | |
-|  João Victor de Oliveira Matos | Auxilie na lógica de diagnosticar doença e de realizar nova consulta, adição de verificação de entrada do usuário| Excelente |
+|  João Victor de Oliveira Matos | Auxílio na lógica de diagnosticar doença e de realizar nova consulta, adição de verificação de entrada do usuário| Excelente |
 |  Kathlyn Lara Murussi          | | |
 |  Luís Guilherme Gaboardi Lins  | | |
 |  Thiago Aparecido Lopes Santos |  |  |

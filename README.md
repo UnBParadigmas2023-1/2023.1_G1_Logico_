@@ -70,12 +70,15 @@ Esses comandos criarão uma imagem com o nome "Prolog" usando o Dockerfile forne
 
 ## Uso 
 ### 1. Após executar o start.sh, preencha com s(Sim) ou n(Não) para os sintomas apresentados:
+![1](https://github.com/UnBParadigmas2023-1/2023.1_G1_Logico_Sistema_Diagnostico_Doencas/assets/69691521/4ae6449b-3175-46fd-a999-83cbdb0dc211)
 
 Note que se o caracter for inválido, será solicitado uma nova resposta para o mesmo sintoma.
 
 ### 2. Se o usuário desejar outro diagnóstico, ele poderá voltar para o início do fluxo:
+![2](https://github.com/UnBParadigmas2023-1/2023.1_G1_Logico_Sistema_Diagnostico_Doencas/assets/69691521/5288e726-d530-4fde-9cf3-ea950f83be4f)
 
 ### 3. Se não, poderá encerrar a aplicação:
+![3](https://github.com/UnBParadigmas2023-1/2023.1_G1_Logico_Sistema_Diagnostico_Doencas/assets/69691521/56c98205-b06e-4115-ab86-d76dde2a44b1)
 
 ## Vídeo
 Adicione 1 ou mais vídeos com a execução do projeto.

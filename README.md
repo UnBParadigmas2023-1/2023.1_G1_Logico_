@@ -96,7 +96,7 @@ Apresente, brevemente, como cada membro do grupo contribuiu para o projeto.
 |  Thiago Aparecido Lopes Santos | Adicionei novas doenças e sintomas e incrementei a lógica da interface para permitir o encerramento da consulta após a inserção dos sintomas desejados. Ajudei nos testes para identificar possíveis problemas de execução. | Boa |
 |  Thiago Siqueira Gomes         | Adicionei interface para o sistema, crie modulos de sintomas, doencas, consulta e interface, nos quais dividi o codigo inicial com o objetivo de ter maior organização do sistema através da modularização, também realizei correções pontuais na lógica do modulo de consulta | Excelente |
 |  Victor Hugo Carvalho Silva    | Adicionei as doenças gastrointestinais, seus respectivos sintomas e descrições, coloquei as regras para seus diagnósticos e ajudei a encontrar erros, que foram corrigidos ao longo do desenvolvimento pela equipe | Boa |
-|  Vitor Manoel Aquino de Brito  | Adicionei novas doenças e sintomas na base de conhecimento, alterando as regras já existentes para definir o diagnóstico. Adição de novas regras para definir qual doença o usuário possuía baseado nos sintomas. Também atuei no debug do código encontrando erros posteriormente corrigidos pelo grupo | Excelente |
+|  Vitor Manoel Aquino de Brito  | Adicionei novas doenças e sintomas na base de conhecimento, alterando as regras já existentes para definir o diagnóstico. Adição de novas regras para definir qual doença o usuário possuía baseado nos sintomas. Também atuei no debug do código encontrando erros posteriormente corrigidos pelo grupo | Boa |
 
 ## Outros
 
